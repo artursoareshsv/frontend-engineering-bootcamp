@@ -1,0 +1,482 @@
+[
+  {
+    "id": "BR-001",
+    "name": "Voltix",
+    "slug": "voltix",
+    "country": "Germany",
+    "foundedYear": 2009,
+    "website": "https://voltix.example"
+  },
+  {
+    "id": "BR-002",
+    "name": "Nordwind",
+    "slug": "nordwind",
+    "country": "Denmark",
+    "foundedYear": 1998,
+    "website": "https://nordwind.example"
+  },
+  {
+    "id": "BR-003",
+    "name": "Lumen Labs",
+    "slug": "lumen-labs",
+    "country": "USA",
+    "foundedYear": 2014,
+    "website": "https://lumenlabs.example"
+  },
+  {
+    "id": "BR-004",
+    "name": "Orbita",
+    "slug": "orbita",
+    "country": "Italy",
+    "foundedYear": 2005,
+    "website": "https://orbita.example"
+  },
+  {
+    "id": "BR-005",
+    "name": "PixelForge",
+    "slug": "pixelforge",
+    "country": "USA",
+    "foundedYear": 2016,
+    "website": "https://pixelforge.example"
+  },
+  {
+    "id": "BR-006",
+    "name": "SonicWave",
+    "slug": "sonicwave",
+    "country": "Japan",
+    "foundedYear": 2001,
+    "website": "https://sonicwave.example"
+  },
+  {
+    "id": "BR-007",
+    "name": "Helio",
+    "slug": "helio",
+    "country": "Sweden",
+    "foundedYear": 2011,
+    "website": "https://helio.example"
+  },
+  {
+    "id": "BR-008",
+    "name": "Nimbus Audio",
+    "slug": "nimbus-audio",
+    "country": "UK",
+    "foundedYear": 1995,
+    "website": "https://nimbusaudio.example"
+  },
+  {
+    "id": "BR-009",
+    "name": "Corex",
+    "slug": "corex",
+    "country": "Canada",
+    "foundedYear": 2007,
+    "website": "https://corex.example"
+  },
+  {
+    "id": "BR-010",
+    "name": "Aurora Optics",
+    "slug": "aurora-optics",
+    "country": "Japan",
+    "foundedYear": 1992,
+    "website": "https://auroraoptics.example"
+  },
+  {
+    "id": "BR-011",
+    "name": "Metron",
+    "slug": "metron",
+    "country": "Netherlands",
+    "foundedYear": 2013,
+    "website": "https://metron.example"
+  },
+  {
+    "id": "BR-012",
+    "name": "zephyra ",
+    "slug": "zephyra",
+    "country": "Portugal",
+    "foundedYear": 2018,
+    "website": "https://zephyra.example"
+  },
+  {
+    "id": "BR-013",
+    "name": "Kanso",
+    "slug": "kanso",
+    "country": "Japan",
+    "foundedYear": 1988,
+    "website": "https://kanso.example"
+  },
+  {
+    "id": "BR-014",
+    "name": "Basalt",
+    "slug": "basalt",
+    "country": "Switzerland",
+    "foundedYear": 2003,
+    "website": "https://basalt.example"
+  },
+  {
+    "id": "BR-015",
+    "name": "Ionic",
+    "slug": "ionic",
+    "country": "Germany",
+    "foundedYear": 2010,
+    "website": "https://ionic.example"
+  },
+  {
+    "id": "BR-016",
+    "name": "Relay Systems",
+    "slug": "relay-systems",
+    "country": "USA",
+    "foundedYear": 2012,
+    "website": "https://relaysystems.example"
+  },
+  {
+    "id": "BR-017",
+    "name": "Kestrel",
+    "slug": "kestrel",
+    "country": "New Zealand",
+    "foundedYear": 1999,
+    "website": "https://kestrel.example"
+  },
+  {
+    "id": "BR-018",
+    "name": "Vantage",
+    "slug": "vantage",
+    "country": "France",
+    "foundedYear": 2006,
+    "website": "https://vantage.example"
+  },
+  {
+    "id": "BR-019",
+    "name": "Cirrus",
+    "slug": "cirrus",
+    "country": "Norway",
+    "foundedYear": 2017,
+    "website": "https://cirrus.example"
+  },
+  {
+    "id": "BR-020",
+    "name": "Quanta",
+    "slug": "quanta",
+    "country": "South Korea",
+    "foundedYear": 2015,
+    "website": "https://quanta.example"
+  },
+  {
+    "id": "BR-021",
+    "name": "AeroGrip",
+    "slug": "aerogrip",
+    "country": "Taiwan",
+    "foundedYear": 2008,
+    "website": "https://aerogrip.example"
+  },
+  {
+    "id": "BR-022",
+    "name": "Tether & Co.",
+    "slug": "tether-and-co",
+    "country": "UK",
+    "foundedYear": 2019,
+    "website": "https://tetherco.example"
+  },
+  {
+    "id": "BR-023",
+    "name": "Portside",
+    "slug": "portside",
+    "country": "Netherlands",
+    "foundedYear": 2004,
+    "website": "https://portside.example"
+  },
+  {
+    "id": "BR-024",
+    "name": "Clasp",
+    "slug": "clasp",
+    "country": "Germany",
+    "foundedYear": 2020,
+    "website": "https://clasp.example"
+  },
+  {
+    "id": "BR-025",
+    "name": "WaveLine",
+    "slug": "waveline",
+    "country": "Japan",
+    "foundedYear": 2000,
+    "website": "https://waveline.example"
+  },
+  {
+    "id": "BR-026",
+    "name": "Casa Verde",
+    "slug": "casa-verde",
+    "country": "Portugal",
+    "foundedYear": 1997,
+    "website": "https://casaverde.example"
+  },
+  {
+    "id": "BR-027",
+    "name": "Hearthstone",
+    "slug": "hearthstone",
+    "country": "UK",
+    "foundedYear": 1990,
+    "website": "https://hearthstone.example"
+  },
+  {
+    "id": "BR-028",
+    "name": "Atlas Kitchen",
+    "slug": "atlas-kitchen",
+    "country": "Italy",
+    "foundedYear": 1985,
+    "website": "https://atlaskitchen.example"
+  },
+  {
+    "id": "BR-029",
+    "name": "Verdant Home",
+    "slug": "verdant-home",
+    "country": "Netherlands",
+    "foundedYear": 2016,
+    "website": "https://verdanthome.example"
+  },
+  {
+    "id": "BR-030",
+    "name": "Copper & Clay",
+    "slug": "copper-and-clay",
+    "country": "Mexico",
+    "foundedYear": 2011,
+    "website": "https://copperclay.example"
+  },
+  {
+    "id": "BR-031",
+    "name": "Fjord Home",
+    "slug": "fjord-home",
+    "country": "Norway",
+    "foundedYear": 2002,
+    "website": "https://fjordhome.example"
+  },
+  {
+    "id": "BR-032",
+    "name": "Rivet & Oak",
+    "slug": "rivet-and-oak",
+    "country": "USA",
+    "foundedYear": 1994,
+    "website": "https://rivetoak.example"
+  },
+  {
+    "id": "BR-033",
+    "name": "Marlowe",
+    "slug": "marlowe",
+    "country": "UK",
+    "foundedYear": 1987,
+    "website": "https://marlowe.example"
+  },
+  {
+    "id": "BR-034",
+    "name": "Kessler & Sohn",
+    "slug": "kessler-and-sohn",
+    "country": "Germany",
+    "foundedYear": 1962,
+    "website": "https://kessler.example"
+  },
+  {
+    "id": "BR-035",
+    "name": "Studio Fjeld",
+    "slug": "studio-fjeld",
+    "country": "Denmark",
+    "foundedYear": 2009,
+    "website": "https://studiofjeld.example"
+  },
+  {
+    "id": "BR-036",
+    "name": "Elmwood",
+    "slug": "elmwood",
+    "country": "Canada",
+    "foundedYear": 1991,
+    "website": "https://elmwood.example"
+  },
+  {
+    "id": "BR-037",
+    "name": "Fable Interiors",
+    "slug": "fable-interiors",
+    "country": "Sweden",
+    "foundedYear": 2015,
+    "website": "https://fableinteriors.example"
+  },
+  {
+    "id": "BR-038",
+    "name": "Aurélie Paris",
+    "slug": "aurelie-paris",
+    "country": "France",
+    "foundedYear": 1979,
+    "website": "https://aurelie.example"
+  },
+  {
+    "id": "BR-039",
+    "name": "Maison Clair",
+    "slug": "maison-clair",
+    "country": "France",
+    "foundedYear": 1983,
+    "website": "https://maisonclair.example"
+  },
+  {
+    "id": "BR-040",
+    "name": "BERGSTRÖM",
+    "slug": "bergstrom",
+    "country": "Sweden",
+    "foundedYear": 1975,
+    "website": "https://bergstrom.example"
+  },
+  {
+    "id": "BR-041",
+    "name": "Paper & Pine",
+    "slug": "paper-and-pine",
+    "country": "Canada",
+    "foundedYear": 2012,
+    "website": "https://paperpine.example"
+  },
+  {
+    "id": "BR-042",
+    "name": "Nordlys",
+    "slug": "nordlys",
+    "country": "Norway",
+    "foundedYear": 2008,
+    "website": "https://nordlys.example"
+  },
+  {
+    "id": "BR-043",
+    "name": "Cobalt Standard",
+    "slug": "cobalt-standard",
+    "country": "USA",
+    "foundedYear": 2014,
+    "website": "https://cobaltstandard.example"
+  },
+  {
+    "id": "BR-044",
+    "name": "Rue Sévigné",
+    "slug": "rue-sevigne",
+    "country": "France",
+    "foundedYear": 1996,
+    "website": "https://ruesevigne.example"
+  },
+  {
+    "id": "BR-045",
+    "name": "Strider",
+    "slug": "strider",
+    "country": "USA",
+    "foundedYear": 2003,
+    "website": "https://strider.example"
+  },
+  {
+    "id": "BR-046",
+    "name": "Linenhouse",
+    "slug": "linenhouse",
+    "country": "Portugal",
+    "foundedYear": 2006,
+    "website": "https://linenhouse.example"
+  },
+  {
+    "id": "BR-047",
+    "name": "Atelier Mira",
+    "slug": "atelier-mira",
+    "country": "Italy",
+    "foundedYear": 1989,
+    "website": "https://ateliermira.example"
+  },
+  {
+    "id": "BR-048",
+    "name": "Trailhead",
+    "slug": "trailhead",
+    "country": "USA",
+    "foundedYear": 1998,
+    "website": "https://trailhead.example"
+  },
+  {
+    "id": "BR-049",
+    "name": "Summit Works",
+    "slug": "summit-works",
+    "country": "Switzerland",
+    "foundedYear": 1993,
+    "website": "https://summitworks.example"
+  },
+  {
+    "id": "BR-050",
+    "name": "Kinetic",
+    "slug": "kinetic",
+    "country": "Germany",
+    "foundedYear": 2011,
+    "website": "https://kinetic.example"
+  },
+  {
+    "id": "BR-051",
+    "name": "Ironclad",
+    "slug": "ironclad",
+    "country": "USA",
+    "foundedYear": 2004,
+    "website": "https://ironclad.example"
+  },
+  {
+    "id": "BR-052",
+    "name": "Wild Path",
+    "slug": "wild-path",
+    "country": "New Zealand",
+    "foundedYear": 2016,
+    "website": "https://wildpath.example"
+  },
+  {
+    "id": "BR-053",
+    "name": "Pace & Pulse",
+    "slug": "pace-and-pulse",
+    "country": "Netherlands",
+    "foundedYear": 2013,
+    "website": null
+  },
+  {
+    "id": "BR-054",
+    "name": "Folio Press",
+    "slug": "folio-press",
+    "country": "UK",
+    "foundedYear": 1948,
+    "website": "https://foliopress.example"
+  },
+  {
+    "id": "BR-055",
+    "name": "Inkwell",
+    "slug": "inkwell",
+    "country": "USA",
+    "foundedYear": 1972,
+    "website": "https://inkwell.example"
+  },
+  {
+    "id": "BR-056",
+    "name": "Marginalia",
+    "slug": "marginalia",
+    "country": "Ireland",
+    "foundedYear": 1994,
+    "website": "https://marginalia.example"
+  },
+  {
+    "id": "BR-057",
+    "name": "Broadleaf Books",
+    "slug": "broadleaf-books",
+    "country": "Canada",
+    "foundedYear": 1986,
+    "website": "https://broadleafbooks.example"
+  },
+  {
+    "id": "BR-058",
+    "name": "Studio Nero",
+    "slug": "studio-nero",
+    "country": "Italy",
+    "foundedYear": 2001,
+    "website": null
+  },
+  {
+    "id": "BR-059",
+    "name": "Paperweight",
+    "slug": "paperweight",
+    "country": "Japan",
+    "foundedYear": 2010,
+    "website": "https://paperweight.example"
+  },
+  {
+    "id": "BR-060",
+    "name": "Quill & Ledger",
+    "slug": "quill-and-ledger",
+    "country": "Germany",
+    "foundedYear": 1968,
+    "website": "https://quillledger.example"
+  }
+]

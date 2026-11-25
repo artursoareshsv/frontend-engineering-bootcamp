@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://frontend-engineering-bootcamp.local/schemas/brands.schema.json",
+  "title": "Brands",
+  "description": "data/raw/brands.json: the supplier brand catalogue.",
+  "type": "array",
+  "minItems": 1,
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["id", "name", "slug", "country", "foundedYear", "website"],
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^BR-[0-9]{3}$"
+      },
+      "name": {
+        "type": "string",
+        "minLength": 1,
+        "description": "Brand names may contain accents, ampersands, trailing whitespace or inconsistent casing."
+      },
+      "slug": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+      },
+      "country": {
+        "type": "string",
+        "minLength": 1
+      },
+      "foundedYear": {
+        "type": "integer",
+        "minimum": 1800,
+        "maximum": 2026
+      },
+      "website": {
+        "type": ["string", "null"]
+      }
+    }
+  }
+}

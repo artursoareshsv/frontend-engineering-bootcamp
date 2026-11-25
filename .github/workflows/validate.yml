@@ -1,0 +1,60 @@
+name: Validate
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+concurrency:
+  group: validate-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    name: validate
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: TypeScript (strict)
+        run: npm run typecheck
+
+      - name: ESLint
+        run: npm run lint
+
+      - name: Validate dataset
+        run: npm run data:validate
+
+      - name: Unit tests
+        run: npm test
+
+      - name: Dataset determinism
+        run: |
+          npm run data:generate
+          if ! git diff --exit-code --stat -- data/raw; then
+            echo "::error::Dataset regeneration produced a diff. The generator is not deterministic or data/raw was edited by hand."
+            exit 1
+          fi
+
+      - name: No focused tests
+        run: |
+          if grep -rn --include='*.spec.ts' -E '\.only\(' challenges; then
+            echo "::error::Remove .only from spec files before merging."
+            exit 1
+          fi

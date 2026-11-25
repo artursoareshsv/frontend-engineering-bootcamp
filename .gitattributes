@@ -1,0 +1,8 @@
+# Keep source files LF on every platform.
+* text=auto eol=lf
+
+# The raw dataset must stay byte-identical; never let Git rewrite line endings.
+data/raw/** -text
+
+# Lockfile is generated; do not merge it manually.
+package-lock.json -diff

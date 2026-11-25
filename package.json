@@ -1,0 +1,32 @@
+{
+  "name": "frontend-engineering-bootcamp",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A practical, project-based frontend engineering bootcamp focused on real-world challenges and technical interview preparation.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:day01": "vitest run challenges/week-01/day-01-search-foundation",
+    "data:generate": "tsx scripts/generate-dataset.ts",
+    "data:validate": "tsx scripts/validate-dataset.ts",
+    "demo:day01": "tsx challenges/week-01/day-01-search-foundation/scripts/demo.ts",
+    "validate": "npm run typecheck && npm run lint && npm run data:validate && npm run test"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^26.6.10",
+    "eslint": "^10.15.0",
+    "globals": "^17.14.0",
+    "tsx": "^4.23.15",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.74.0",
+    "vitest": "^4.1.12"
+  }
+}

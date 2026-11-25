@@ -1,0 +1,205 @@
+[
+  {
+    "id": "CAT-01",
+    "name": "Electronics",
+    "slug": "electronics",
+    "parentId": null,
+    "description": "Consumer electronics and connected devices."
+  },
+  {
+    "id": "CAT-02",
+    "name": "Accessories",
+    "slug": "accessories",
+    "parentId": null,
+    "description": "Computer and mobile accessories."
+  },
+  {
+    "id": "CAT-03",
+    "name": "Home Appliances",
+    "slug": "home-appliances",
+    "parentId": null,
+    "description": "Appliances for the kitchen, cleaning and climate control."
+  },
+  {
+    "id": "CAT-04",
+    "name": "Furniture",
+    "slug": "furniture",
+    "parentId": null,
+    "description": "Furniture for the office, living room and bedroom."
+  },
+  {
+    "id": "CAT-05",
+    "name": "Clothing",
+    "slug": "clothing",
+    "parentId": null,
+    "description": "Men's, women's and footwear collections."
+  },
+  {
+    "id": "CAT-06",
+    "name": "Sports & Outdoors",
+    "slug": "sports-and-outdoors",
+    "parentId": null,
+    "description": "Fitness equipment and outdoor gear."
+  },
+  {
+    "id": "CAT-07",
+    "name": "Books & Stationery",
+    "slug": "books-and-stationery",
+    "parentId": null,
+    "description": "Books, notebooks and desk stationery."
+  },
+  {
+    "id": "CAT-08",
+    "name": "Computers ",
+    "slug": "computers",
+    "parentId": "CAT-01",
+    "description": "Laptops, desktops and tablets for work and play."
+  },
+  {
+    "id": "CAT-09",
+    "name": "Smartphones",
+    "slug": "smartphones",
+    "parentId": "CAT-01",
+    "description": "Unlocked smartphones with modern connectivity."
+  },
+  {
+    "id": "CAT-10",
+    "name": "Audio",
+    "slug": "audio",
+    "parentId": "CAT-01",
+    "description": "Headphones, speakers and audio equipment."
+  },
+  {
+    "id": "CAT-11",
+    "name": "Cameras",
+    "slug": "cameras",
+    "parentId": "CAT-01",
+    "description": "Mirrorless, DSLR, action and instant cameras."
+  },
+  {
+    "id": "CAT-12",
+    "name": "Wearables",
+    "slug": "wearables",
+    "parentId": "CAT-01",
+    "description": "Smartwatches, fitness trackers and smart rings."
+  },
+  {
+    "id": "CAT-13",
+    "name": "Keyboards & Mice",
+    "slug": "keyboards-and-mice",
+    "parentId": "CAT-02",
+    "description": "Mechanical keyboards, wireless mice and desk input devices."
+  },
+  {
+    "id": "CAT-14",
+    "name": "Cables & Adapters",
+    "slug": "cables-and-adapters",
+    "parentId": "CAT-02",
+    "description": "Charging cables, hubs, docks and power adapters."
+  },
+  {
+    "id": "CAT-15",
+    "name": "Cases & Sleeves",
+    "slug": "cases-and-sleeves",
+    "parentId": "CAT-02",
+    "description": "Protective cases, sleeves and bags for devices."
+  },
+  {
+    "id": "CAT-16",
+    "name": "Desk Accessories",
+    "slug": "desk-accessories",
+    "parentId": "CAT-02",
+    "description": "Stands, arms, webcams and desk organisation."
+  },
+  {
+    "id": "CAT-17",
+    "name": "Kitchen Appliances",
+    "slug": "kitchen-appliances",
+    "parentId": "CAT-03",
+    "description": "Coffee makers, blenders and countertop cooking appliances."
+  },
+  {
+    "id": "CAT-18",
+    "name": "Cleaning Appliances",
+    "slug": "cleaning-appliances",
+    "parentId": "CAT-03",
+    "description": "Vacuums, mops and air purifiers."
+  },
+  {
+    "id": "CAT-19",
+    "name": "Climate Control",
+    "slug": "climate-control",
+    "parentId": "CAT-03",
+    "description": "Fans, heaters, humidifiers and air conditioners."
+  },
+  {
+    "id": "CAT-20",
+    "name": "Office Furniture",
+    "slug": "office-furniture",
+    "parentId": "CAT-04",
+    "description": "Ergonomic chairs, desks and storage."
+  },
+  {
+    "id": "CAT-21",
+    "name": "living room",
+    "slug": "living-room",
+    "parentId": "CAT-04",
+    "description": "Sofas, tables and media furniture."
+  },
+  {
+    "id": "CAT-22",
+    "name": "Bedroom",
+    "slug": "bedroom",
+    "parentId": "CAT-04",
+    "description": "Beds, wardrobes and bedroom storage."
+  },
+  {
+    "id": "CAT-23",
+    "name": "Men's Clothing",
+    "slug": "men-s-clothing",
+    "parentId": "CAT-05",
+    "description": "Casual and smart menswear."
+  },
+  {
+    "id": "CAT-24",
+    "name": "Women's Clothing",
+    "slug": "women-s-clothing",
+    "parentId": "CAT-05",
+    "description": "Contemporary womenswear."
+  },
+  {
+    "id": "CAT-25",
+    "name": "Footwear",
+    "slug": "footwear",
+    "parentId": "CAT-05",
+    "description": "Running shoes, sneakers, boots and sandals."
+  },
+  {
+    "id": "CAT-26",
+    "name": "Fitness Equipment",
+    "slug": "fitness-equipment",
+    "parentId": "CAT-06",
+    "description": "Home gym machines and training accessories."
+  },
+  {
+    "id": "CAT-27",
+    "name": "Outdoor Gear",
+    "slug": "outdoor-gear",
+    "parentId": "CAT-06",
+    "description": "Camping and hiking equipment."
+  },
+  {
+    "id": "CAT-28",
+    "name": "Books",
+    "slug": "books",
+    "parentId": "CAT-07",
+    "description": "Fiction, non-fiction and memoirs."
+  },
+  {
+    "id": "CAT-29",
+    "name": "Stationery",
+    "slug": "stationery",
+    "parentId": "CAT-07",
+    "description": "Notebooks, planners and writing instruments."
+  }
+]

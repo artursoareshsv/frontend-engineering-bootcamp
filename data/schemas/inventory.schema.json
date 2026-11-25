@@ -1,0 +1,79 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://frontend-engineering-bootcamp.local/schemas/inventory.schema.json",
+  "title": "Inventory",
+  "description": "data/raw/inventory.json: warehouse master data plus stock records. Duplicate (productId, warehouseId) rows are expected.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "warehouses", "records"],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "warehouses": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["warehouseId", "name", "city", "country", "region", "capacityUnits"],
+        "properties": {
+          "warehouseId": {
+            "type": "string",
+            "pattern": "^WH-[A-Z]{3}-[0-9]{2}$"
+          },
+          "name": { "type": "string", "minLength": 1 },
+          "city": { "type": "string", "minLength": 1 },
+          "country": { "type": "string", "minLength": 1 },
+          "region": { "type": "string", "enum": ["EMEA", "NA"] },
+          "capacityUnits": { "type": "integer", "minimum": 0 }
+        }
+      }
+    },
+    "records": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "inventoryId",
+          "productId",
+          "warehouseId",
+          "quantity",
+          "reservedQuantity",
+          "lastRestockedAt"
+        ],
+        "properties": {
+          "inventoryId": {
+            "type": "string",
+            "pattern": "^INV-[0-9]{6}$",
+            "description": "Unique even when the row duplicates another product/warehouse pair."
+          },
+          "productId": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "Always references a product that exists in products.csv."
+          },
+          "warehouseId": {
+            "type": "string",
+            "pattern": "^WH-[A-Z]{3}-[0-9]{2}$"
+          },
+          "quantity": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "reservedQuantity": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Semantic rule: must be <= quantity."
+          },
+          "lastRestockedAt": {
+            "type": "string",
+            "description": "ISO 8601 timestamp for most rows; MM/DD/YYYY for 43 rows."
+          }
+        }
+      }
+    }
+  }
+}
