@@ -4,12 +4,14 @@ This repository is a one-person training programme with a mentor reviewing Pull 
 
 ## Ground rules
 
-- `main` is protected. Never push to it directly.
+- Treat `main` as protected. Never push to it directly.
 - One challenge per branch and per Pull Request.
 - Do not edit public tests to make a solution pass. If a test is genuinely wrong, say so in the PR with evidence.
 - Do not commit `node_modules`, build output, `.env` files or anything in `data/processed`.
 - Do not modify or regenerate `data/raw` unless the challenge explicitly asks for it. The data is an input contract.
 - Every PR must pass CI before review.
+
+> **Note:** server-side branch protection is not available on the current GitHub plan for this private repository. See [`docs/branch-protection.md`](./docs/branch-protection.md) for the verified status and the rules to enable after upgrading. Until then, the rules above are enforced by convention and by CI reporting on every PR.
 
 ## Branch naming
 

@@ -79,7 +79,8 @@ frontend-engineering-bootcamp/
 │   ├── data-architecture.md
 │   ├── weekly-roadmap.md
 │   ├── interview-guidelines.md
-│   └── evaluation-rubric.md
+│   ├── evaluation-rubric.md
+│   └── branch-protection.md
 └── .github/
     ├── workflows/validate.yml
     └── PULL_REQUEST_TEMPLATE.md
@@ -196,7 +197,13 @@ Full details are in [`CONTRIBUTING.md`](CONTRIBUTING.md). The short version:
 2. One Pull Request per challenge, targeting `main`.
 3. CI must be green.
 4. The PR description must explain the approach, alternatives, complexity and what you would change in production.
-5. At least one approval is required; direct pushes to `main` are blocked.
+5. An approval is required before merging, and direct pushes to `main` are not allowed.
+
+### Branch protection status
+
+Server-side branch protection is **not currently enforceable**: this repository is private and owned by a GitHub Free personal account, and GitHub restricts branch protection and rulesets on private repositories to Pro/Team/Enterprise plans. The intended rules (pull request required, `validate` status check required, force pushes and deletions blocked, conversation resolution required) are documented in [`docs/branch-protection.md`](docs/branch-protection.md), together with the exact ruleset to apply after an upgrade and the caveat that a second reviewer account is needed before requiring approvals.
+
+Until then, the workflow is enforced by convention, by CI running on every PR, and by the PR template. Do not push to `main` directly.
 
 ---
 
